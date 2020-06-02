@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class DeathSong : MonoBehaviour {
 	//Class attached to the ground game object.
-    public AudioSource death;
+    public AudioSource deathSong;
 
 	//Created because multiple audio files cannot be on the same object.
-	
+
 	void Start () {
-        death = GetComponent<AudioSource>(); 
+        deathSong = GetComponent<AudioSource>(); 
 	}
 }

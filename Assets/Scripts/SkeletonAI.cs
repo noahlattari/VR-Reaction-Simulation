@@ -32,7 +32,7 @@ public class SkeletonAI: MonoBehaviour {
 			if (healthbar.value == 0) {
 				GameStarter.GetComponent < GameStarter > ().song.Stop();
 				player.transform.position = deathLocation;
-				ground.GetComponent < DeathSong > ().death.Play(); //here
+				ground.GetComponent < DeathSong > ().deathSong.Play(); 
 			}
 
 		}
